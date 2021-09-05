@@ -1,2 +1,8 @@
-# PhpStorm
+# PhpStorm project settings
 /.idea
+
+# Node.js Modules
+/node_modules
+
+# Environment variables
+.env

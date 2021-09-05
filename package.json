@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "description": "A console application to help you decide which book to read next based on your reading list",
   "main": "bin/index.js",
+  "bin": {
+    "nextread": "./bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "xml2js": "^0.4.23"
+  },
   "author": "Sander Bongers <sander@bonge.rs>",
-  "license": "MIT",
-  "bin": {
-    "nextread": "./bin/index.js"
-  }
+  "license": "MIT"
 }
