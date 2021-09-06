@@ -6,6 +6,9 @@ const config = {
     api_secret: process.env.GOODREADS_API_SECRET,
     user_id: process.env.GOODREADS_USER_ID,
     shelf: process.env.GOODREADS_SHELF || 'to-read'
+  },
+  bol: {
+    api_key: process.env.BOL_API_KEY
   }
 }
 
