@@ -2,6 +2,8 @@
 
 NextRead CLI is a console application to help you decide which book to read next based on your reading list.
 
+![Screenshot](https://raw.githubusercontent.com/sanderbongers/nextread-cli/master/screenshot.gif)
+
 ## Prerequisites
 
 * [node.js](https://nodejs.org/) and [npm](https://npmjs.com/) installed
