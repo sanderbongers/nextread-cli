@@ -23,13 +23,18 @@ $ npm i -g
 Run the command:
 
 ```sh
-$ nextread
+$ nextread []
 ```
 
 Or if you haven't installed the script globally:
 
 ```sh
 $ node .
+```
+
+## Options
+```sh
+-s, --sort <property> <order>    The property and order to sort by. E.g. --sort price asc. Defaults to: rating desc.
 ```
 
 ## Uninstallation
