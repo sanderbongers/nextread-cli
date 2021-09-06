@@ -23,7 +23,7 @@ $ npm i -g
 Run the command:
 
 ```sh
-$ nextread []
+$ nextread
 ```
 
 Or if you haven't installed the script globally:
